@@ -9,24 +9,16 @@
 </head>
 
 <body>
-    <h1>Signup Form</h1>
     <form method="post" action="/submit">
-        <!-- Name -->
         <label for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="Name" required><br><br>
-
-        <!-- Email -->
         <label for="email">Email</label>
         <input type="email" id="email" name="email" placeholder="Email" required><br><br>
-
-        <!-- Gender -->
         <label>Gender:</label>
         <input type="radio" id="gender_m" name="gender" value="Male" required>
         <label for="gender_m">Male</label>
         <input type="radio" id="gender_f" name="gender" value="Female" required>
         <label for="gender_f">Female</label><br><br>
-
-        <!-- Car Brands -->
         <label for="cars">Car Brands</label>
         <select id="cars" name="cars" required>
             <option value="" disabled selected>--Please choose an option--</option>
@@ -35,28 +27,16 @@
             <option value="Mahindra">Mahindra</option>
             <option value="Fortuner">Fortuner</option>
         </select><br><br>
-
-        <!-- Age -->
         <label for="age">Age</label>
         <input type="number" id="age" name="age" placeholder="Age" required><br><br>
-
-        <!-- Date of Birth -->
         <label for="dob">DOB</label>
         <input type="date" id="dob" name="dob" required><br><br>
-
-        <!-- Phone Number -->
         <label for="tel">Phone Number</label>
         <input type="tel" id="tel" name="num" placeholder="xxx-xxx-xxxx" pattern="\d{3}-\d{3}-\d{4}"><br><br>
-
-        <!-- Password -->
         <label for="password">Password</label>
         <input type="password" id="password" name="password" placeholder="Password" required><br><br>
-
-        <!-- TOS -->
         <input type="checkbox" id="tos" name="tos" required>
         <label for="tos">I agree to the TOS</label><br><br>
-
-        <!-- Submit Button -->
         <input type="submit" value="Signup">
     </form>
 
