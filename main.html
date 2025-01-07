@@ -9,20 +9,14 @@
 <body>
 	 <form method="post">
         <label for="name">Name</label>
-	        <input type="text" required id="name" placeholder="Name" name="name"><br>
+	        <input type="text"  id="name" placeholder="Name" name="name" required><br>
         <label for="email">Email</label>
-	        <input type="email" required id="email" placeholder="Email" name="=email"><br>
+	        <input type="email"  id="email" placeholder="Email" name="=email"required><br>
 	    Gender :
 		  <input type="radio" name="gender" id="gender_m" required>
-		 <label for="gender_m">Male</label>
+		 <label for="gender">Male</label>
 			 <input type="radio" name="gender" id="gender_f" required>
-		 <label for="gender_f">Female</label><br>
-			
-		 <!-- <label > Gender</label><br>
-        <label for="gender_m">Male</label>
-        <input type="radio" name="gender" id="gender_m"required>
-        <label for="gender_f">Female</label>
-        <input type="radio" name="gender" id="gender_f"required><br> -->
+		 <label for="gender">Female</label><br>
         <label for="cars">Car Brands</label>
         <select id="cars" name="cars" aria-placeholder="--Please choose an option--" required >
 			<option>--Please choose an option--</option>
@@ -34,11 +28,11 @@
         <label for="age">Age</label>
         <input type="number"required id="age" name="age"placeholder="Age"><br>
         <label for="dob">DOB</label>
-        <input type="date" required id="dob"name="dob"><br>
+        <input type="date"  id="dob"name="dob" required><br>
         <label for="num">Phone Number</label>
         <input type="tel" id="tel"placeholder="xxx-xxx-xxxx" name="num"><br>
         <label for="password">Password</label>
-        <input type="password" required id="password"placeholder="Password"name="password"><br>
+        <input type="password" id="password"placeholder="Password"name="password" required><br>
         <input type="checkbox" required id="tos" name="tos">
         <label for="tos">I agree to the TOS</label><br>
         <input type="submit">
